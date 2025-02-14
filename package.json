@@ -4,7 +4,7 @@
   "description": "This repo is for university work in testing jenkins.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Success on Test" && exit 0"
+    "test": "echo \"Success on Test\" && exit 0"
   },
   "keywords": [],
   "author": "",
