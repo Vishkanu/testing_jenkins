@@ -13,7 +13,7 @@ pipeline {
                 bat '''
                 echo "== Starting Build =="
                 cd "%WORKSPACE%"
-                mkdir build // Ensures build folder exists
+                mkdir build
                 npm install
                 echo "== Build Completed! =="
                 '''
