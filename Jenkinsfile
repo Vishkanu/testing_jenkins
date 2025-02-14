@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/YOUR_GIT/my_project.git'
+                git credentialsId: '1', branch: 'main', url: 'https://github.com/YOUR_GIT/my_project.git'
             }
         }
         stage('Build') {
